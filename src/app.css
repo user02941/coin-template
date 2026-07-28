@@ -1,0 +1,34 @@
+@import 'tailwindcss';
+
+/*
+  Change the palette right here — these become bg-bg, text-primary,
+  border-border, etc. utility classes everywhere in the app.
+  Palette pulled from the SleepCat logo: night-sky purple, hoodie blue, star gold.
+*/
+@theme {
+	--color-bg: #150a2e; /* night-sky purple background */
+	--color-surface: #21123f; /* cards / nav / footer panels */
+	--color-primary: #4d8fe6; /* hoodie blue — buttons, glow, headings */
+	--color-secondary: #f6c945; /* star / teddy-bear gold — highlights, ticker */
+	--color-text: #f5f1ff; /* body text on dark bg */
+	--color-muted: #ab9fd4; /* secondary/dim text, lavender-grey */
+	--color-border: #362463; /* hairlines, card borders */
+
+	--font-heading: 'Fredoka One', cursive;
+  	--font-display: 'Bangers', cursive;
+}
+
+html {
+	background: var(--color-bg);
+	color-scheme: dark;
+}
+
+body {
+	font-family: 'Comic Neue', ui-sans-serif, system-ui, sans-serif;
+	font-weight: 600;
+	font-size: 1.2rem;
+}
+
+.font-display {
+  letter-spacing: 0.07em;
+}

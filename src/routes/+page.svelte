@@ -5,6 +5,7 @@
 	import Footer from '$lib/components/Footer.svelte';
 	import HowToBuy from '$lib/components/HowToBuy.svelte';
 	import Roadmap from '$lib/components/Roadmap.svelte';
+	import Cta from '$lib/components/Cta.svelte';
 	import { site } from '$lib/config';
 </script>
 
@@ -18,4 +19,5 @@
 <Lore />
 <HowToBuy />
 <Roadmap />
+<Cta />
 <Footer />

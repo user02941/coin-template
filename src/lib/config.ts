@@ -6,7 +6,7 @@ export const site = {
 		'SleepCat never watches the charts. He never panic sells. He closes his eyes, ignores the red candles, and wakes up to green ones. Now the trenches want in on the nap.',
 
 	// Contract Address - IMPORTANT
-	contractAddress: '',
+	contractAddress: 'J4DPV6XiyhJm8LPMVhkqRApqfXb1jBzhXk3ojH6pump',
 
 	logo: '/hero.webp',
 	heroImage: '/hero.webp',
